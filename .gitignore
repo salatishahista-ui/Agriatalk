@@ -1,0 +1,38 @@
+# Rasa
+models/
+.rasa/
+logs/
+*.db
+*.sqlite
+
+# Python
+__pycache__/
+*.pyc
+env/
+venv/
+rasa-env/
+
+# Node / React Native
+node_modules/
+dist/
+build/
+.expo/
+.expo-shared/
+
+# Java Spring Boot
+target/
+*.jar
+*.war
+*.iml
+/.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
